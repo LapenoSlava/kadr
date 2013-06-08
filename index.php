@@ -6,6 +6,7 @@
 	<head>
 	<body>
 		<div id="header">
+			
 		</div>
 		<div id="news">
 			<?php include 'news.php'; ?>
