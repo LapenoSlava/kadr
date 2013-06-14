@@ -8,10 +8,10 @@ $result = mysql_query("SELECT * FROM news");
 while ($i = mysql_fetch_assoc($result)) {
 	$title = $i['title'];
 	$header = $i['header'];
-	echo "<table>";
-	echo "<tr><h1>$title</h1></tr>";
-	echo "<tr> $header </tr>";
-	echo "</table>";
+    echo '<div class="hero-unit">';
+	echo "<h2>$title</h2>";
+	echo "<p>$header</p>";
+    echo '<a class="btn btn-primary btn-large">Learn more</a>';
 } 
 mysql_close($link);
 ?>
