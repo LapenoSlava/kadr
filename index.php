@@ -40,7 +40,7 @@
             </div>  
             <hr>
             <div class="footer">
-                <p><a href="sign_in.php">&copy;</a> LapenoSlava 2013</p>
+                <p><a href="sign_in.html">&copy;</a> LapenoSlava 2013</p>
             </div>
 
         </div>
